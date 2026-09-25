@@ -1,0 +1,26 @@
+/* Custom utility styles for stepping & transitions */
+.step-active {
+  border-color: #2563eb;
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.step-completed {
+  border-color: #16a34a;
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+/* Smooth transition for active tab changes */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Image preview hover effect */
+#imagePreview {
+  transition: transform 0.2s ease;
+}
+
+#imagePreview:hover {
+  transform: scale(1.02);
+}
